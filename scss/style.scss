@@ -1,0 +1,20 @@
+@import "reset.scss";
+@import "nav.scss";
+@import "trial.scss";
+@import "social-media.scss";
+@import "tabs.scss";
+@import "info";
+body{
+    font-family: 'Montserrat', sans-serif;
+    height: 300vh;
+
+}
+html {
+	scroll-behavior: smooth;
+}
+h1, p{
+  color:white;
+}
+h2,h6{
+  color:white;
+}
