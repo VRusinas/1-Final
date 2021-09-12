@@ -57,13 +57,20 @@
       height: 57px;
       }
       .form-content{
-        padding: 0 50px;
+        padding: 20px 50px;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
         width: 100%;
         height: 311px;
-
+      }
+      .form-bottom{
+        background: #41D395;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 57px;
+        width: 100%;
       }
     }
   }
