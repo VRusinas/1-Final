@@ -12,6 +12,15 @@ body{
 html {
 	scroll-behavior: smooth;
 }
+input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #D8D8D8;
+}
+::placeholder{
+  color:#D8D8D8;
+}
 h1,h2,h6, p{
   color:white;
 }
@@ -26,4 +35,8 @@ h1,h2,h6, p{
 }
 #opacity08{
   opacity: 0.8;
+}
+#white{
+  color:white;
+  opacity: 1;
 }
