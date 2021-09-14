@@ -78,3 +78,18 @@
     }
   }
 }
+@media (max-width: 900px){
+  .flex-box1{
+    padding: 50px;
+    flex-direction: column;
+    .trial1{
+      width: 100%;
+    }
+    .trial2{
+      width: 100%;
+      .free-trial{
+            width: 100%;
+      }
+    }
+  }
+}

@@ -102,15 +102,12 @@ ul li a:hover {
 
 /* Navbar media */
 @media (max-width: 900px){
+
   .meniu-burger{
     display: block;
   }
   .menu-wrap ul li a {
     display: none;
-  }
-  .flex-box1{
-    flex-direction: column;
-    width: 100%;
   }
   .process-panel{
   .div-container1{
@@ -118,3 +115,9 @@ ul li a:hover {
   }
 }
 }
+// .nav-wrap{
+//   width: 10px;
+// }
+// .menu-wrap{
+//   width: 10px;
+// }
