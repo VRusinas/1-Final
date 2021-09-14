@@ -16,16 +16,50 @@
 
 
     .mid-tag{
+      display: flex;
+      justify-content: space-between;
       transform: translateY(-20px);
   height: 490px;
   width: 343px;
   border: 2px solid black;
-  margin: 40px 50px;
+  margin: 40px 35px;
     }
     .smaller-tag{
+      display: flex;
+      justify-content: space-between;
       height: 450px;
       width: 343px;
       border: 2px solid black;
     }
+    .top-tag{
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content:space-around;
+      height: 210px;
+      width: 100%;
+      background: #333333;
+    }
   }
+}
+#firstt{
+color: #FFFFFF;
+font-size: 20px;
+font-weight: lighter;
+}
+.secondt{
+  font-weight: lighter;
+  color: #FFFFFF;
+  font-size: 94px;
+}
+.secondt::before{
+  font-size: 35px;
+  content: "$";
+}
+#thirdt{
+font-weight: lighter;
+color: #FFFFFF;
+opacity: 0.5;
+font-size: 14px;
 }
