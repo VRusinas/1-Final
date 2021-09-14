@@ -23,14 +23,18 @@ input{
 ::placeholder{
   color:#D8D8D8;
 }
-h1,h2,h6, p{
-  color:white;
+
+.font-size-14{
+  font-size: 14px;
 }
 .font-size-16{
   font-size: 16px;
 }
 .font-size-18{
   font-size: 18px;
+}
+.font-size-20{
+  font-size: 20px;
 }
 .font-size-36-h1{
   font-size: 36px;
@@ -43,13 +47,16 @@ h1,h2,h6, p{
   opacity: 1;
 }
 #black{
-  color:black;
+color: #333333;;
 }
 #orange{
   color:#ea7309;
 }
 #bold{
   font-weight:bold;
+}
+#color-86878B{
+color: #86878B;
 }
 .translate{
 transform: translateX(-63px)  translateY(1.5px) ;
