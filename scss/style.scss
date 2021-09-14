@@ -4,6 +4,7 @@
 @import "social-media.scss";
 @import "tabs.scss";
 @import "info";
+@import "radio-button.scss";
 body{
     font-family: 'Montserrat', sans-serif;
     height: 300vh;
@@ -39,4 +40,17 @@ h1,h2,h6, p{
 #white{
   color:white;
   opacity: 1;
+}
+#orange{
+  color:#ea7309;
+}
+#bold{
+  font-weight:bold;
+}
+.translate{
+transform: translateX(-63px)  translateY(1.5px) ;
+
+}
+.translate2{
+transform: translateX(-50px)translateY(1.5px) ;
 }

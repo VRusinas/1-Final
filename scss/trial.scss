@@ -37,6 +37,7 @@
   height: 639px;
   border: 4px solid green;
   .free-trial{
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,29 +59,13 @@
       height: 57px;
       }
       .form-content{
+
         padding: 20px 50px;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
         width: 100%;
         height: 311px;
-        .radio-button-container{
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-          justify-content: space-between;
-          padding-right: 50px;
-          .custom-radio {
-            font-size: 11px;
-            display: flex;
-            align-items: center;
-            width: 100px;
-          }
-          .radio {
-            display: inline-block;
-            width: 3px;
-          }
-        }
 
       }
       .form-bottom{
