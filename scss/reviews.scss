@@ -1,19 +1,26 @@
+.reviews-box{
+  text-align: center;
+    height:591px;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 .reviews{
   padding: 30px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  width: 100%;
+  width: 87%;
   height:591px;
-  border: 2px solid black;
   .swiper {
     width: 100%;
     height: 350px;
-    // padding: 100px;
   }
 }
+}
 .review-box{
+  text-align: left;
   width:273px;
   height:236px;
   display: inline-flex;
@@ -21,15 +28,17 @@
   flex: 1;
   border-radius: 4px;
   flex-direction: column;
-  border: 2px solid black;
+
   .bubble{
+    padding: 20px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     color:white;
     width:100%;
-    background: blue;
+    background: #6696E2;
+    border-radius: 8px;
 
   }
   .bubble::before {
@@ -37,12 +46,20 @@
     position: absolute;
     top: 100%;
     left: -3%;
-    border-left: 20px solid transparent;
- border-right: 20px solid transparent;
-
- border-top: 20px solid #f00;
+    border-left: 28px solid transparent;
+    border-right: 28px solid transparent;
+    border-top: 20px solid #6696E2;
+    transform: translateX(15px) translateY(-12px);
+  }
+  .avatar{
+    text-align: left;
+    padding-right: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   .imgz{
+    margin-top: 17px;
     height: 70px;
     width: 70px;
   }
@@ -52,6 +69,7 @@
 }
 .swiper-slide {
   text-align: center;
+
 }
 #height147{
     height: 147px;
