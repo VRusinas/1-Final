@@ -1,5 +1,5 @@
 nav {
-  z-index: 1;
+  z-index: 3;
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -75,6 +75,7 @@ ul li a:hover {
 }
 /* Side menu */
 .side-menu-wrap {
+  z-index: 3;
   position: fixed;
   top: 72px;
   left: 0;
