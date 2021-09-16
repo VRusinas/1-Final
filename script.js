@@ -44,5 +44,18 @@ const swiper = new Swiper('.swiper', {
     prevEl: '.swiper-button-prev',
   },
 
-  // And if we need scrollbar
+  breakpoints: {
+    800: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+    1000: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+    1600: {
+      slidesPerView: 4,
+      spaceBetween: 30
+    }
+  }
 });
