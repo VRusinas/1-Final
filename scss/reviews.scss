@@ -17,16 +17,18 @@
   width:273px;
   height:236px;
   display: inline-flex;
-  justify-content:flex-end;
+  justify-content: flex-end;
   flex: 1;
   border-radius: 4px;
   flex-direction: column;
   border: 2px solid black;
   .bubble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color:white;
     width:100%;
     background: blue;
-
   }
   .imgz{
     height: 70px;
@@ -38,4 +40,10 @@
 }
 .swiper-slide {
   text-align: center;
+}
+#height147{
+    height: 147px;
+}
+#height125{
+  height: 125px;
 }
