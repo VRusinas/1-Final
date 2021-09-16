@@ -23,12 +23,24 @@
   flex-direction: column;
   border: 2px solid black;
   .bubble{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     color:white;
     width:100%;
     background: blue;
+
+  }
+  .bubble::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: -3%;
+    border-left: 20px solid transparent;
+ border-right: 20px solid transparent;
+
+ border-top: 20px solid #f00;
   }
   .imgz{
     height: 70px;
