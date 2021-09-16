@@ -16,20 +16,16 @@
 .review-box{
   width:273px;
   height:236px;
-  width: 250px;
   display: inline-flex;
+  justify-content:flex-end;
   flex: 1;
   border-radius: 4px;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  margin: 12px;
-  padding: 50px;
-  background:blue;
+  border: 2px solid black;
   .bubble{
-    height: 147px;
-    width: 100%;
-    border: 2px solid black;
+    color:white;
+    width:100%;
+    background: blue;
   }
 
 
