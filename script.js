@@ -36,6 +36,9 @@ const swiper = new Swiper('.swiper', {
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
+
+
+
   },
 
   // Navigation arrows
@@ -43,7 +46,6 @@ const swiper = new Swiper('.swiper', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-
   breakpoints: {
     800: {
       slidesPerView: 2,

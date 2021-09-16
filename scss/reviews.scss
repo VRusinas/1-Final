@@ -6,12 +6,12 @@
   justify-content: center;
   align-items: center;
 .reviews{
-  padding: 30px;
+  padding: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  width: 87%;
+  width: 86%;
   height:591px;
   .swiper {
     width: 100%;
@@ -63,10 +63,18 @@
     height: 70px;
     width: 70px;
   }
-
-
-
 }
+.swiper-pagination .swiper-pagination-bullet{
+  padding: 3px;
+  margin: 0 10px !important;
+  background-color: white;
+  opacity: 1;
+  border: 1px solid #E27866;
+}
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #E27866;
+}
+
 .swiper-slide {
   text-align: center;
 
