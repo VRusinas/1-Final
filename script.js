@@ -80,7 +80,6 @@ $(document).ready(function(){
   const inputValue_name = document.getElementById('inputValue_name');
   const inputValue_srname = document.getElementById('inputValue_srname');
   const inputValue_phone = document.getElementById('inputValue_phone');
-
   const inputValue_name2 = document.getElementById('inputValue_name2');
   const inputValue_srname2 = document.getElementById('inputValue_srname2');
   const inputValue_phone2 = document.getElementById('inputValue_phone2');
