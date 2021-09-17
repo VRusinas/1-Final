@@ -21,7 +21,7 @@
       padding: 20px 70px;
       flex-direction: column;
       margin-top: 25px;
-      width: 100%;
+      width: 390px;
       height: 314px;
       background: #FFFFFF;
       .button-center{
@@ -37,4 +37,13 @@
       }
     }
   }
+}
+@media (max-width: 450px){
+  .contact-us{
+    .form2-place{
+    .form2{
+      width: 330px;
+    }
+  }
+}
 }

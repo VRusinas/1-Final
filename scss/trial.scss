@@ -61,7 +61,7 @@
       height: 57px;
       }
       .form-content{
-
+        text-align: left;
         padding: 20px 50px;
         display: flex;
         justify-content: space-around;
@@ -86,7 +86,7 @@
   .flex-box1{
     padding:0;
     text-align: center;
-    padding: 50px;
+    padding: 50px 30px;
     flex-direction: column;
     .trial1{
       padding: 40px 0 0 0 ;
