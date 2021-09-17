@@ -29,10 +29,13 @@
       width: 258px;
         height: 194px;
         .picture{
+          display: flex;
+          justify-content: center;
+          align-items: center;
           height: 50px;
           width: 50px;
           border-radius: 50%;
-          border: 2px solid orange;
+          border: 1px solid #E27866;
         }
     }
   }
