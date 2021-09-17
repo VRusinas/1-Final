@@ -56,7 +56,7 @@ ul li a:hover {
   right: 25px;
   height: 30px;
   width: 30px;
-  background: url("/app/css/content/burger0.svg");
+  background: url("./app/css/content/burger0.svg");
   background-repeat: no-repeat;
   transition: 0.3s;
 }
@@ -64,7 +64,7 @@ ul li a:hover {
 .active {
   opacity: 1;
   padding-bottom: 24px;
-  border-bottom: 3px solid orange;
+  border-bottom: 3px solid #E27866;
 }
 .nav-op{
   opacity:1;
