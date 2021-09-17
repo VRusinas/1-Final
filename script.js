@@ -80,8 +80,8 @@ $(document).ready(function(){
   const inputValue_name = document.getElementById('inputValue_name');
   const inputValue_srname = document.getElementById('inputValue_srname');
   const inputValue_phone = document.getElementById('inputValue_phone');
-  
-  const inputValue_name2 = document.getElementById('inputValue_srname2');
+
+  const inputValue_name2 = document.getElementById('inputValue_name2');
   const inputValue_srname2 = document.getElementById('inputValue_srname2');
   const inputValue_phone2 = document.getElementById('inputValue_phone2');
 
@@ -99,14 +99,13 @@ $(document).ready(function(){
     alert("Neįvėdete savo telefono numerio.");
   }
   else{
+    document.getElementById('monthly').checked = true;
     inputValue_name.value = "";
     inputValue_srname.value = "";
     inputValue_phone.value = "";
     alert("Forma sukurta.")
   }
 }
-
-
   function validacija2(){
     if(inputValue_name2.value == "")
     {
@@ -121,6 +120,7 @@ $(document).ready(function(){
     alert("Neįvėdete savo telefono numerio.");
   }
   else{
+    document.getElementById('Personal').checked = true;
     inputValue_name2.value = "";
     inputValue_srname2.value = "";
     inputValue_phone2.value = "";
