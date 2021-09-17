@@ -60,9 +60,9 @@
         </div>
         <div class="form-content">
           <h3 class="font-size-16">Your details</h3>
-          <input placeholder="First name" type="text" name="" value="">
-          <input placeholder="Last name" type="text" name="" value="">
-          <input placeholder="Phone number" type="text" name="" value="">
+          <input id="inputValue_name" placeholder="First name" type="text">
+          <input id="inputValue_srname" placeholder="Last name" type="text">
+          <input id="inputValue_phone" placeholder="Phone number" type="number">
 
               <h3 class="font-size-16">Type of subscription</h3>
             <div class="radio-button-container">
@@ -86,7 +86,7 @@
 
         </div>
         <div class="form-bottom">
-          <h2 class="font-size-18"><a id="white" href="#">GET STARTED</a></h2>
+          <h2 class="font-size-18"><a  id="submit-btn" onclick="validacija()" href="#">GET STARTED</a></h2>
         </div>
       </div>
     </div>
@@ -418,9 +418,9 @@
 <p id="white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
   <div class="form2">
 
-    <input placeholder="First name" type="text" name="" value="">
-    <input placeholder="Last name" type="text" name="" value="">
-    <input placeholder="Phone number" type="text" name="" value="">
+    <input id="inputValue_name2" placeholder="First name" type="text">
+    <input id="inputValue_srname2" placeholder="Last name" type="text">
+    <input id="inputValue_phone2" placeholder="Phone number" type="number">
 
 
       <div class="radio-button-container">
@@ -444,7 +444,7 @@
 
         </div>
         <div class="button-center">
-            <button class="send-button">SEND</button>
+            <button onclick="validacija2()" class="send-button">SEND</button>
         </div>
       </div>
   </div>

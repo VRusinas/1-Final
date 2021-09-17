@@ -1,4 +1,4 @@
-alert("Veikia");
+
 var burger = document.getElementById("burger");
 var sideMenu = document.getElementById("side-menu");
 
@@ -76,3 +76,54 @@ $(document).ready(function(){
     }
   });
 });
+
+  const inputValue_name = document.getElementById('inputValue_name');
+  const inputValue_srname = document.getElementById('inputValue_srname');
+  const inputValue_phone = document.getElementById('inputValue_phone');
+  
+  const inputValue_name2 = document.getElementById('inputValue_srname2');
+  const inputValue_srname2 = document.getElementById('inputValue_srname2');
+  const inputValue_phone2 = document.getElementById('inputValue_phone2');
+
+  function validacija(){
+    if(inputValue_name.value == "")
+    {
+    alert("Neįvėdete savo vardo.");
+  }
+  else if (inputValue_srname.value == "")
+  {
+      alert("Neįvėdete savo pavardes.");
+  }
+  else if(inputValue_phone.value == "")
+  {
+    alert("Neįvėdete savo telefono numerio.");
+  }
+  else{
+    inputValue_name.value = "";
+    inputValue_srname.value = "";
+    inputValue_phone.value = "";
+    alert("Forma sukurta.")
+  }
+}
+
+
+  function validacija2(){
+    if(inputValue_name2.value == "")
+    {
+    alert("Neįvėdete savo vardo.");
+  }
+  else if (inputValue_srname2.value == "")
+  {
+      alert("Neįvėdete savo pavardes.");
+  }
+  else if(inputValue_phone2.value == "")
+  {
+    alert("Neįvėdete savo telefono numerio.");
+  }
+  else{
+    inputValue_name2.value = "";
+    inputValue_srname2.value = "";
+    inputValue_phone2.value = "";
+    alert("Forma sukurta.")
+  }
+}
