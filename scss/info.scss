@@ -45,7 +45,7 @@ height: 169px;
 }
 @media (max-width: 900px){
 .info{
-  height: 900px;
+  height: 990px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -54,6 +54,7 @@ height: 169px;
   .left-info{
     width: 100%;
     .logo2{
+      padding-bottom:20px;
       width: 70%;
       height: 100%;
     }

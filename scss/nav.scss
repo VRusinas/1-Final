@@ -40,7 +40,7 @@ a{
 }
 
 ul li a:hover {
-  opacity: 1;
+  opacity: 0.8;
 }
 .meniu-burger{
   display: none;
@@ -55,7 +55,7 @@ ul li a:hover {
 }
 
 .active {
-  opacity: 1;
+
   padding-bottom: 24px;
   border-bottom: 3px solid #E27866;
   animation-name: selecteda;
@@ -95,9 +95,6 @@ ul li a:hover {
  }
 }
 
-
-
-
 .translateX {
   transform: translateX(0px);
 }
@@ -122,6 +119,7 @@ ul li a:hover {
     border-bottom: 3px solid #E27866;
   }
   100% {
+    opacity: 1;
     padding:0 10px 24px 10px;
     border-bottom: 3px solid #E27866;
 }
