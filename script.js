@@ -62,7 +62,7 @@ const swiper = new Swiper('.swiper', {
   }
 });
 
-
+//page transition animation 1s
 $(document).ready(function(){
   $("a").on('click', function(event) {
     if (this.hash !== "") {
