@@ -46,3 +46,30 @@ height: 169px;
 }
 }
 }
+@media (max-width: 900px){
+.info{
+  height: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 40px 0;
+  .left-info{
+    width: 100%;
+    .logo2{
+      width: 70%;
+      height: 100%;
+    }
+  }
+  .right-info{
+    padding: 0 80px;
+    width: 100%;
+    align-items:center;
+    justify-content: center;
+    .info-box{
+      align-items:center;
+    }
+  }
+}
+
+}
