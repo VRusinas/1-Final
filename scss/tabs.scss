@@ -1,4 +1,5 @@
 .tabs{
+  padding: 0 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,14 +14,13 @@
     align-items: center;
     overflow: hidden;
     border: 1px solid #ccc;
-    background-color: blue;
     height: 380px;
   }
   .tab2{
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 70%;
+    justify-content: space-between;
+    width: 80%;
       height: 380px;
   }
 }
@@ -28,6 +28,8 @@
 
 /* Style the buttons inside the tab */
 .tab button {
+  opacity: 0.5;
+  background:#E27866;
   border: none;
   outline: none;
   cursor: pointer;
@@ -44,7 +46,8 @@
 
 /* Create an active/current tablink class */
 .tab button.active2 {
-  background-color: purple;
+  background-color: #E27866;
+  opacity: 1;
 }
 
 /* Style the tab content */
@@ -62,6 +65,7 @@
   flex-direction: row;
   justify-content:space-around;
 .text-section{
+  padding: 0 40px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -70,20 +74,27 @@
   height: 380px;
 }
 .image-section{
-width: 40%;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
   height: 100px;
-  background: blue;
-      height: 380px;
-      .top-img{
-        display: flex;
-      }
+  height: 370px;
+  .size1-flex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  .size1{
+    margin: 0 10px;
+    width: 168px;
+    height: 168px;
+  }
 }
-}
-#i168{
-  width: 168px;
-  height: 168px;
-}
-#i2{
-  width: 362px;
-  height: 177px;
+  .size2{
+    width: 362px;
+    height: 177px;
+  }
+
+  }
 }
