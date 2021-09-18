@@ -26,8 +26,6 @@ for (var i = 0; i < topLinks.length; i++) {
 }
 
 
-
-
 const swiper = new Swiper('.swiper', {
   // Optional parameters
   direction: 'horizontal',
@@ -36,8 +34,6 @@ const swiper = new Swiper('.swiper', {
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
-
-
 
   },
 
@@ -127,7 +123,7 @@ $(document).ready(function(){
   }
 }
 
-function openCity(evt, choice) {
+function choice(evt, choice) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
