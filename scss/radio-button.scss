@@ -1,7 +1,9 @@
-.radio-button-container{
+.radio-button-container1{
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: 200px;
+  z-index: 1;
 
   .custom-radio {
 
@@ -15,7 +17,6 @@
   }
   .radio {
     display: inline-block;
-  
     position: relative;
     width: 12px;
     height: 12px;
