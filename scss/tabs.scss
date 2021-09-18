@@ -70,11 +70,20 @@
   height: 380px;
 }
 .image-section{
-
-
 width: 40%;
   height: 100px;
   background: blue;
       height: 380px;
+      .top-img{
+        display: flex;
+      }
 }
+}
+#i168{
+  width: 168px;
+  height: 168px;
+}
+#i2{
+  width: 362px;
+  height: 177px;
 }
