@@ -59,14 +59,15 @@
   width: 100%;
   display: flex;
   flex-direction: row;
+  justify-content:space-around;
 .text-section{
   width: 50%;
-  height: 300px;
+  height: 380px;
 }
 .image-section{
-  width: 100px;
+width: 40%;
   height: 100px;
   background: blue;
-      height: 300px;
+      height: 380px;
 }
 }
