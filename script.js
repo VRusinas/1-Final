@@ -83,15 +83,15 @@ $(document).ready(function(){
   function validacija(){
     if(inputValue_name.value == "")
     {
-    alert("Neįvėdete savo vardo.");
+    alert("Užmiršote įvesti vardą.");
   }
   else if (inputValue_srname.value == "")
   {
-      alert("Neįvėdete savo pavardes.");
+      alert("Užmiršote įvesti pavardę.");
   }
   else if(inputValue_phone.value == "")
   {
-    alert("Neįvėdete savo telefono numerio.");
+    alert("Užmiršote įvesti savo telefono numerį.");
   }
   else{
     document.getElementById('monthly').checked = true;
@@ -104,15 +104,15 @@ $(document).ready(function(){
   function validacija2(){
     if(inputValue_name2.value == "")
     {
-    alert("Neįvėdete savo vardo.");
+      alert("Užmiršote įvesti vardą.");
   }
   else if (inputValue_srname2.value == "")
   {
-      alert("Neįvėdete savo pavardes.");
+          alert("Užmiršote įvesti pavardę.");
   }
   else if(inputValue_phone2.value == "")
   {
-    alert("Neįvėdete savo telefono numerio.");
+      alert("Užmiršote įvesti savo telefono numerį.");
   }
   else{
     document.getElementById('Personal').checked = true;

@@ -100,7 +100,12 @@ ul li a:hover {
 }
 
 @media (max-width: 900px){
+  nav{
 
+  .logo{
+    transform: translateX(140px);
+    }
+  }
   .meniu-burger{
     display: block;
   }
