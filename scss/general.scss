@@ -88,23 +88,19 @@ transform: translateX(-72px)translateY(1.5px) ;
   color: white;
   font-size: 14px;
 }
+#extra-padding{
+  padding-bottom: 0px;
+}
 @media (max-width: 1100px){
   .rotate{
     transform: rotate(0deg);
+  }
+  #extra-padding{
+    padding-bottom: 20px;
   }
 }
 #idimg{
   margin: auto 0;
   width: 340px;
   height: 200px;
-}
-#wrapper .text {
-position:relative;
-bottom:30px;
-left:0px;
-visibility:hidden;
-}
-
-#wrapper:hover .text {
-visibility:visible;
 }
