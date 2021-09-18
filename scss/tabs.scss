@@ -1,23 +1,32 @@
 .tabs{
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 595px;
   border: 4px solid yellow;
+  .tab {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: blue;
+    height: 380px;
+  }
+  .tab2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+      height: 380px;
+  }
 }
 /* Style the tab */
-.tab {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-}
 
 /* Style the buttons inside the tab */
 .tab button {
-  float: left;
   border: none;
   outline: none;
   cursor: pointer;
@@ -44,4 +53,20 @@
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+    height: 380px;
+  }
+.flex-flex{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+.text-section{
+  width: 50%;
+  height: 300px;
+}
+.image-section{
+  width: 100px;
+  height: 100px;
+  background: blue;
+      height: 300px;
+}
 }
