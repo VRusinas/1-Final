@@ -1,3 +1,7 @@
+a{
+  opacity: 1;
+}
+
 .tabs{
   background: linear-gradient(rgba(102, 150, 226, 0.42), rgba(226, 120, 102, 0.42)),url("../css/content/mountains.png");
   background-size: cover;
@@ -94,6 +98,7 @@
     width: 168px;
     height: 168px;
   }
+
 }
   .size2{
     width: 362px;
@@ -104,7 +109,7 @@
 }
 
 @media (max-width: 1100px){
-  
+
   .tabs{
     padding: 80px 60px;
     width: 100%;
@@ -138,7 +143,8 @@
       .size1{
         width: 128px;
         height:128px;
-        }
+      }
+
       }
       .size2{
         width: 322px;
@@ -151,6 +157,8 @@
     display: flex;
   }
 }
+
+
 @media (max-width: 600px){
   .tabs{
         height: 1300px;
